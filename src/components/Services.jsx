@@ -15,7 +15,7 @@ export const Services = () => {
         <div>
             <div id="container">
                 <div id="image">
-                    <img src={logo2} id="img" />
+                    <img src={logo2} id="img" alt=''/>
                 </div>
                 <div id="info">
                     <div className="info-details">
@@ -55,78 +55,68 @@ export const Services = () => {
 
             <div class="gallery">
                 <div class="pic">
-                    <img src={pasta} class="gallery_pic" />
-                    <h4 class="center">Pasta</h4>
+                    <img src={pasta} class="gallery_pic"alt='' />
+                    <h4 class="card-heading">Pasta</h4>
                     <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     <div class="pricing">
-                        <h5>$35</h5>
-                        <button class="btn">Add to Cart</button>
+                        <button class="btn">Add to Favorites</button>
                     </div>
                 </div>
                 <div class="pic">
-                    <img src={Chicken} class="gallery_pic" />
-                    <h4 class="center">Chicken Shawarma</h4>
+                    <img src={Chicken} class="gallery_pic" alt=''/>
+                    <h4 class="card-heading">Chicken Shawarma</h4>
                     <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     <div class="pricing">
-                        <h5>$35</h5>
-                        <button class="btn">Add to Cart</button>
+                        <button class="btn">Add to Favorites</button>
                     </div>
                 </div>
                 <div class="pic">
-                    <img src={biryani} class="gallery_pic" />
-                    <h4 class="center">Biryani</h4>
+                    <img src={biryani} class="gallery_pic" alt='' />
+                    <h4 class="card-heading">Biryani</h4>
                     <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     <div class="pricing">
-                        <h5>$35</h5>
-                        <button class="btn">Add to Cart</button>
+                        <button class="btn">Add to Favorites</button>
                     </div>
                 </div>
                 <div class="pic">
-                    <img src={fries} class="gallery_pic" />
-                    <h4 class="center">French Fries</h4>
+                    <img src={fries} class="gallery_pic" alt=''/>
+                    <h4 class="card-heading">French Fries</h4>
                     <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     <div class="pricing">
-                        <h5>$35</h5>
-                        <button class="btn">Add to Cart</button>
+                        <button class="btn">Add to Favorites</button>
                     </div>
                 </div>
-            </div>
 
-            <div class="gallery">
                 <div class="pic">
-                    <img src={momos} class="gallery_pic" />
-                    <h4 class="center">Momos</h4>
+                    <img src={momos} class="gallery_pic" alt=''/>
+                    <h4 class="card-heading">Momos</h4>
                     <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     <div class="pricing">
-                        <h5>$35</h5>
-                        <button class="btn">Add to Cart</button>
+                        <button class="btn">Add to Favorites</button>
                     </div>
                 </div>
                 <div class="pic">
-                    <img src={panner} class="gallery_pic" />
-                    <h4 class="center">Panner Makhani</h4>
+                    <img src={panner} class="gallery_pic" alt=''/>
+                    <h4 class="card-heading">Panner Makhani</h4>
                     <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     <div class="pricing">
-                        <h5>$35</h5>
-                        <button class="btn">Add to Cart</button>
+                        <button class="btn">Add to Favorites</button>
                     </div>
                 </div>
                 <div class="pic">
-                    <img src={grilled} class="gallery_pic" />
-                    <h4 class="center">Sandwich</h4>
+                    <img src={grilled} class="gallery_pic" alt=''/>
+                    <h4 class="card-heading">Sandwich</h4>
                     <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     <div class="pricing">
-                        <h5>$35</h5>
-                        <button class="btn">Add to Cart</button>
+                        <button class="btn">Add to Favorites</button>
                     </div>
                 </div>
                 <div class="pic">
-                    <img src={tikka} class="gallery_pic" />
-                    <h4 class="center">Panner Tikka</h4>
+                    <img src={tikka} class="gallery_pic" alt=''/>
+                    <h4 class="card-heading">Panner Tikka</h4>
                     <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     <div class="pricing">
-                        <h5>$35</h5>
-                        <button class="btn">Add to Cart</button>
+                        <button class="btn">Add to Favorites</button>
                     </div>
                 </div>
             </div>

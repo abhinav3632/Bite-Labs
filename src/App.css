@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
-
+@import "~slick-carousel/slick/slick.css"; 
+@import "~slick-carousel/slick/slick-theme.css";
 * {
   padding: 0;
   margin: 0;
@@ -44,7 +45,7 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: #FFFCF7;
-  /* z-index: 3; */
+  z-index: 3;
 }
 
 .header-color{
@@ -386,7 +387,7 @@ body {
 .hero_container{
     width: 112rem; 
     padding: 1rem;
-    margin-top: 20rem;
+    margin-top: 22rem;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -419,13 +420,14 @@ body {
   font-style: normal;
   display: block;
   justify-content: right;
+  margin: 10rem auto;
   align-items: center;
   background-color: #FFFCF7;
 }
 
 .chef_heading {
   font-size: 3rem;
-  margin: 2rem 0;
+  margin: 5rem 0;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -464,4 +466,55 @@ body {
   font-size: 1.5rem;
   padding: 1rem;
   color: #4F516B;
+}
+
+
+/* Slider */
+.Slide {
+  width: 60%;
+  margin: 5rem auto;
+}
+
+.slide img {
+  width: 30rem;
+  margin: 4rem auto;
+  border-radius: 1.5rem;
+}
+
+.slide {
+  transform: scale(0.2);
+  transition: transform 400ms;
+  opacity: 0.5;
+}
+
+.activeSlide {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.arrow {
+  background-color: #fff;
+  position: absolute;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.arrow svg {
+  transition: color 300ms;
+  scale: 4;
+}
+
+.arrow svg:hover {
+  color: white;
+  background-color: #F2BC57;
+  border-radius: 50%;
+}
+.next {
+  right: 0%;
+  top: 50%;
+}
+
+.prev {
+  left: 0%;
+  top: 50%;
 }
