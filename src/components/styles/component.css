@@ -1,0 +1,137 @@
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FFFCF7;
+    gap: 8rem;
+    padding: 15rem;
+}
+
+#img {
+    height: 45rem;
+    padding: 0.6rem;
+    margin-left: 5rem;
+
+}
+
+#info {
+    font-size: 14px;
+
+}
+
+.info-details{
+    text-align: center;
+}
+
+#head1 {
+    font-size: 40px;
+
+}
+
+#para1 {
+    color: grey;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.btn {
+    border-radius: 12px;
+    border-style: none;
+    padding: 0.4rem;
+    margin-right: 1rem;
+    background-color: rgba(255, 252, 247, 255);
+
+}
+
+.frame {
+    padding: 3rem;
+}
+
+#head2 {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+#list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    margin-top: 3rem;
+}
+
+.nav_link {
+    border: 1px solid gold;
+    font-size: 1.5rem;
+    font-weight: 500;
+    width: 10rem;
+    height: 3.8rem;
+    margin: 1.35rem;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    padding-top: 1rem;
+    transition: all 0.3s ease 0s;
+}
+
+.nav_link:hover {
+    background-color:
+        #f0BD54;
+}
+
+.btn:hover {
+    border: 1px solid gold;
+}
+
+.pic {
+    border-radius: 28px;
+    width: 25rem;
+    height: 30rem;
+    margin: 1rem;
+    padding: 0.5rem;
+    border: 1px solid;
+    border-style: none;
+    margin-top: 3rem;
+    padding-bottom: 1rem;
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
+}
+
+.gallery_pic {
+    width: 24rem;
+    height: 18rem;
+    border-top-right-radius: 28px;
+    border-top-left-radius: 28px;
+}
+
+.pricing {
+    margin-top: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.center {
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    flex-wrap: wrap;
+}
+
+h4 {
+    margin-top: 1rem;
+}
+
+.center:hover {
+    color: gray;
+}
+
+.pic:hover {
+    scale: 1.05;
+    box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.3);
+}
