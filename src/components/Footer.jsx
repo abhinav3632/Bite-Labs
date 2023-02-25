@@ -1,11 +1,12 @@
 import React from 'react'
 import '../components/styles/footer.css'
 
+
 export const Footer = () => {
   return (
     <footer class="footer">
-        <div class="container">
-            <div class="row">
+        <div class="container1">
+            <div class="row1">
                 <div class="footer-col">
                     <h4>follow us</h4>
                     <div class="social-links">

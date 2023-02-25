@@ -16,12 +16,12 @@ footer{
     /* grid-template-columns: repeat(auto-fit, minmax(50px,1fr)); */
 }
 
-.container{
+.container1{
 	/* max-width: 100px; */
     margin: auto;
 
 }
-.row{
+.row1{
 	display: flex;
 	flex-wrap: wrap;
     justify-content: center;

@@ -1,31 +1,33 @@
 import './App.css';
-import { AboutUs } from './components/AboutUs';
-import { Services } from './components/Services';
-import { Footer } from './components/Footer';
-import { Founder } from './components/Founder';
-import { Mobile } from './components/Mobile';
+import { Page1 } from './Page1';
+import { AppProvider } from './context';
+import { Routes, Route } from "react-router-dom";
 import { Nav } from './components/Nav';
-import Foodslider from './components/Foodslider';
-
-// import Slider from 'react-slick';
-// import { Popdishes } from './components/Popdishes';
-// import Reserve from './components/Reserve';
-
+import Login from "./Firebase/components/Login";
+import Signup from "./Firebase/components/Signup";
+import { UserAuthContextProvider } from "./Firebase/context/UserAuthContext";
 
 
 
 function App() {
+
   return (
-    <div className="App">
-      <Nav />
-      <AboutUs />
-      <Services />
-      {/* <Reserve /> */}
-      <Founder />
-      <Foodslider />
-      <Mobile />
-      <Footer />
-    </div>
+    <>
+      <UserAuthContextProvider>      
+        <Nav />
+        <Routes>
+          <Route path="/"
+            element=
+            {
+              <AppProvider>
+                <Page1 />
+              </AppProvider>
+            } />
+          <Route path="/login" element={<Login />} />
+          <Route path="/signup" element={<Signup />} />
+        </Routes>
+      </UserAuthContextProvider>
+    </>
   );
 }
 
