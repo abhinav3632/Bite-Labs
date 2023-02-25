@@ -1,20 +1,21 @@
 import React from "react";
 import { useGlobalContext } from "../context"
 import Search from "./Search";
+import '../components/styles/component.css'
 
 
 export const Gallery = () => {
 
 
     const { meals, loading, selectMeal, addToFavorites, removeFromFavorites
-        , fetchMexican , fetchJapenese , fetchItalian , 
-        fetchCanadian , fetchIndian , fetchSeaFood } = useGlobalContext()
-    
+        , fetchMexican, fetchJapenese, fetchItalian,
+        fetchCanadian, fetchIndian, fetchSeaFood } = useGlobalContext()
+
 
     if (loading) {
         return (
             <section className="section" >
-                <h4>Loading...</h4>
+                <div class="lds-dual-ring"></div>
             </section>
         )
     }
@@ -24,7 +25,7 @@ export const Gallery = () => {
     //         <section className="section" >
     //             <h4>No Meals Matched Your Search Term. Please Try Again. </h4>
     //         </section>
-            
+
     //     )
     // }
 
@@ -36,10 +37,8 @@ export const Gallery = () => {
         return (
             <div class="pic">
                 <img src={image} class="gallery_pic" onClick={() => selectMeal(idMeal)} />
-                <h4 class="center">{title}</h4>
-                <p class="center"></p>
+                <h4 class="card-heading">{title}</h4>
                 <div class="pricing">
-                    <h5>$35</h5>
                     <button onClick={() => addToFavorites(idMeal)} class="btnn">Add to Fav..</button>
                 </div>
             </div>

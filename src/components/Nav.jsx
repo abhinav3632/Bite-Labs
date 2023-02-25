@@ -97,12 +97,12 @@ export const Nav = () => {
                     }
                 </ul> */}
             </nav>
-            <div className="nav-buttons">
+            {/* <div className="nav-buttons">
                 <div className="basket">
                     <img src={basket} alt="basket" className="basket-logo" />
                 </div>
                 <button className="reserve">Reserve Table</button>
-            </div>
+            </div> */}
 
             <div onClick={handleDark} className="container-darkmode">
                 <div className={`theme_toggle ${darkMode ? "night" : "day"}`}>
