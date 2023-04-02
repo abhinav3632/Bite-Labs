@@ -35,12 +35,14 @@
     color: var(--white);
     border: transparent;
     cursor: pointer;
-    font-size: 0.5rem;
+    font-size: 1.5rem;
     transition: var(--transition);
   }
   .remove-btn:hover{
     color: var(--white);
     scale: 2;
   }
+  
+
   
   
