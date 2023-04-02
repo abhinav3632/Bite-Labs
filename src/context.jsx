@@ -35,17 +35,30 @@ const AppProvider = ({ children }) => {
     // const Mexican = "https://www.themealdb.com/api/json/v1/1/filter.php?a=Mexican"
     
     
+    // --------------LOCAL___SERVER-----------------
+
+    // const allMealsUrl = 'http://localhost:3000/api/v1/dishes';
+    // const details = "http://localhost:3000/api/v1/dishes?strMeal="
+    // // FOODS
+    // const seaFood = "http://localhost:3000/api/v1/dishes"
+    // const indian = "http://localhost:3000/api/v1/dishes?strArea=Indian"
+    // const canadian = "http://localhost:3000/api/v1/dishes?strArea=Canadian"
+    // const Italian = "http://localhost:3000/api/v1/dishes?strArea=Italian"
+    // const Japanese = "http://localhost:3000/api/v1/dishes?strArea=Japanese"
+    // const Mexican = "http://localhost:3000/api/v1/dishes?strArea=Mexican"
     
-    const allMealsUrl = 'http://localhost:3000/api/v1/dishes';
-    const details = "http://localhost:3000/api/v1/dishes?strMeal="
+
+    // ------------REPLIT___SERVER----------------
+
+    const allMealsUrl = 'https://food-api.lakshyarana.repl.co/api/v1/dishes';
+    const details = "https://food-api.lakshyarana.repl.co/api/v1/dishes?strMeal="
     // FOODS
-    const seaFood = "http://localhost:3000/api/v1/dishes"
-    const indian = "http://localhost:3000/api/v1/dishes?strArea=Indian"
-    const canadian = "http://localhost:3000/api/v1/dishes?strArea=Canadian"
-    const Italian = "http://localhost:3000/api/v1/dishes?strArea=Italian"
-    const Japanese = "http://localhost:3000/api/v1/dishes?strArea=Japanese"
-    const Mexican = "http://localhost:3000/api/v1/dishes?strArea=Mexican"
-    
+    const seaFood = "https://food-api.lakshyarana.repl.co/api/v1/dishes"
+    const indian = "https://food-api.lakshyarana.repl.co/api/v1/dishes?strArea=Indian"
+    const canadian = "https://food-api.lakshyarana.repl.co/api/v1/dishes?strArea=Canadian"
+    const Italian = "https://food-api.lakshyarana.repl.co/api/v1/dishes?strArea=Italian"
+    const Japanese = "https://food-api.lakshyarana.repl.co/api/v1/dishes?strArea=Japanese"
+    const Mexican = "https://food-api.lakshyarana.repl.co/api/v1/dishes?strArea=Mexican"
     
 
     const data = 'https://randomuser.me/api/';
