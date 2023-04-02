@@ -11,6 +11,10 @@
     max-width: var(--max-width);
     margin: 0 auto;
   }
+  .fav-heading{
+    font-size: 2rem;
+
+  }
   .favorites-container{
     display: flex;
     gap: 0.5rem;
@@ -20,7 +24,7 @@
     text-align: center;
   }
   .favorites-img{
-    width: 60px;
+    width: 12rem;
     border-radius: 50%;
     border: 5px solid var(--white);
     cursor: pointer;
@@ -31,11 +35,14 @@
     color: var(--white);
     border: transparent;
     cursor: pointer;
-    font-size: 0.5rem;
+    font-size: 1.5rem;
     transition: var(--transition);
   }
   .remove-btn:hover{
-    color: var(--red-dark);
+    color: var(--white);
+    scale: 2;
   }
+  
+
   
   

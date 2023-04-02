@@ -79,7 +79,7 @@ export const Nav = () => {
                 <li ><Link className='navbar-link' to="/">Home</Link></li>
                     {
                         user ?
-                        <li><a className="navbar-link" onClick={handleLogout} >Logout</a></li>
+                        <li ><Link className='navbar-link' onClick={handleLogout} to="/">Logout</Link></li>
                         :
                         <li ><Link className='navbar-link' to="/signup">Sign up</Link></li>
                     }
@@ -97,12 +97,12 @@ export const Nav = () => {
                     }
                 </ul> */}
             </nav>
-            <div className="nav-buttons">
+            {/* <div className="nav-buttons">
                 <div className="basket">
                     <img src={basket} alt="basket" className="basket-logo" />
                 </div>
                 <button className="reserve">Reserve Table</button>
-            </div>
+            </div> */}
 
             <div onClick={handleDark} className="container-darkmode">
                 <div className={`theme_toggle ${darkMode ? "night" : "day"}`}>

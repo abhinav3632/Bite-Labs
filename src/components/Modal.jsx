@@ -5,7 +5,6 @@ import "./styles/modal.css"
 const Modal = () => {
     const { selectedMeal, closeModal , loading } = useGlobalContext();
     
-    
     if (loading) {
         return (
             <section className="section" >

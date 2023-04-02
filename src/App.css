@@ -201,7 +201,7 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: #FFFCF7;
-  /* z-index: 3; */
+  z-index: 3;
 }
 
 .header-color{
@@ -622,3 +622,13 @@ body {
   padding: 1rem;
   color: #4F516B;
 }
+
+/* -----------------------lodaing animation ----------------------- */
+.loading-section{
+  display: flex;
+    justify-content: center;
+}
+.loading-section > video{
+  width: 300px;
+}
+
